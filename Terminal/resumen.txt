@@ -1,0 +1,5 @@
+mkdir: comando para crear carpetas
+touch: comando para crear archivos
+git add: Comando para agregar archivos al staging area
+git branch: comando para crear rama
+git push: comando para subir cambios al repositorio remoto

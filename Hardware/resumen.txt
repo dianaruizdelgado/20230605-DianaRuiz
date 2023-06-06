@@ -1,0 +1,3 @@
+CPU: Unidad central de procesamiento
+RAM: Memoria de acceso aleatorio
+Disco Duro: dispositivo de almacenamiento
