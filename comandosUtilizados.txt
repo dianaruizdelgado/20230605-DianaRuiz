@@ -1,0 +1,28 @@
+  500  mkdir 20230605-DianaRuiz
+  501  cd 20230605-DianaRuiz
+  502  git init
+  503  git remote add origin https://github.com/dianaruizdelgado/20230605-DianaRuiz.git
+  504  touch comandos.txt main.js index.html
+  505  git add .
+  506  git commit -m "commit 01 de DianaRuiz"
+  507  git push origin master
+  508  git branch feature01
+  509  git checkout feature01
+  510  mkdir Terminal Hardware
+  511  cd Terminal/
+  512  touch resumen.txt
+  513  cd ..
+  514  cd Hardware/
+  515  touch resumen.txt
+  516  cd ..
+  517  git add .
+  518  git commit -m "commit 02 de DianaRuiz"
+  519  git push origin feature01
+  520  git branch feature02
+  521  git checkout feature02
+  522  git add .
+  523  git commit -m "commit 03 de DianaRuiz"
+  524  git push origin feature02
+  525  git checkout master
+  526  mv comandos.txt comandosUtilizados.txt
+  527  history
